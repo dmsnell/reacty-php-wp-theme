@@ -10,5 +10,7 @@ use function Html\div;
 ] );
 
 function PostList( $posts ) {
-  return div( [], array_map( 'Post\PostExcerpt', $posts ) );
+  return div( [ 'class' => 'post-list' ],
+    array_map( 'Post\PostExcerpt', $posts )
+  );
 }

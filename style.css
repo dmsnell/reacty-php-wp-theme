@@ -2,3 +2,77 @@
 Theme Name: React PHP Theme
 Author: Dennis Snell <dennis.snell@automattic.com>
 */
+
+.content {
+  padding: 23px;
+}
+
+.blog-header {
+  min-height: 240px;
+  background-image: url(http://images5.fanpop.com/image/photos/30800000/-Random-random-30843841-1920-1080.jpg);
+  color: white;
+}
+
+.blog-header .blog-title {
+  font-size: 3em;
+  padding-left: 23px;
+  padding-top: 23px;
+}
+
+.blog-header .blog-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-header .blog-description {
+  font-size: 1.75em;
+  padding-left: 23px;
+  padding-top: 6px;
+}
+
+.blog-footer div {
+  display: inline-block;
+  width: 250px;
+}
+
+.post-list {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.post-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.post-list a:hover {
+  color: blue;
+}
+
+.post-list .post-excerpt .thumbnail,
+.post-list .post-excerpt .thumbnail img {
+  max-height: 60px;
+  max-width: 120px;
+}
+
+.post-list .post-excerpt a {
+  padding-left: 150px;
+}
+
+.single-post {
+  max-width: 840px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.single-post .post-title {
+  font-family: serif;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+.single-post .post-content {
+  line-height: 1.8em;
+  max-width: 600px;
+  margin: auto;
+}

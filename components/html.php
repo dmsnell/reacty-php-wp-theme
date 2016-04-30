@@ -57,3 +57,27 @@ function h4( $props, $children ) {
 function article( $props, $children ) {
   return htmlElement( 'article', $props, $children );
 }
+
+function img( $props ) {
+  return htmlElement( 'img', $props, [] );
+}
+
+function html( $props, $children ) {
+  return htmlElement( 'html', $props, $children );
+}
+
+function head( $props, $children ) {
+  return htmlElement( 'head', $props, $children );
+}
+
+function body( $props, $children ) {
+  return htmlElement( 'body', $props, $children );
+}
+
+function link( $props ) {
+  return htmlElement( 'link', $props, [] );
+}
+
+function script( $props, $children ) {
+  return htmlElement( 'script', $props, $children );
+}

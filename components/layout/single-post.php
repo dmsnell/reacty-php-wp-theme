@@ -11,5 +11,7 @@ use function Post\Post;
 ] );
 
 function SinglePost( $post ) {
-    return div( [], [ Post( $post ) ] );
+  return div( [ 'class' => 'single-post' ], [
+    Post( $post )
+  ] );
 }
